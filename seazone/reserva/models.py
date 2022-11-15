@@ -11,7 +11,7 @@ class Reserva(models.Model):
     check_in = models.DateTimeField()
     check_out = models.DateTimeField()
     total_price = models.IntegerField()
-    comment = models.TextField()
+    comment = models.TextField(null=True, blank=True)
     guest_quantity = models.IntegerField()
 
     created_at = models.DateTimeField(auto_now_add=True)
