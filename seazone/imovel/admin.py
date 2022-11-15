@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+from seazone.imovel.models import Imovel
+
+
+class ImovelAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(Imovel, ImovelAdmin)

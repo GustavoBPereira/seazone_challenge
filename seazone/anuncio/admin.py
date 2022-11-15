@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+from seazone.anuncio.models import Anuncio
+
+
+class AnuncioAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(Anuncio, AnuncioAdmin)

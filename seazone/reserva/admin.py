@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+from seazone.reserva.models import Reserva
+
+
+class ReservaAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(Reserva, ReservaAdmin)
