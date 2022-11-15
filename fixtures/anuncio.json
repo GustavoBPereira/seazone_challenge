@@ -1,0 +1,68 @@
+[
+{
+    "model": "anuncio.anuncio",
+    "pk": 1,
+    "fields": {
+        "imovel": 1,
+        "platform": "airbnb",
+        "platform_fee": 4500,
+        "created_at": "2022-11-15T21:27:55.823Z",
+        "updated_at": "2022-11-15T21:27:55.824Z"
+    }
+},
+{
+    "model": "anuncio.anuncio",
+    "pk": 2,
+    "fields": {
+        "imovel": 2,
+        "platform": "airbnb",
+        "platform_fee": 2500,
+        "created_at": "2022-11-15T21:28:05.564Z",
+        "updated_at": "2022-11-15T21:28:05.564Z"
+    }
+},
+{
+    "model": "anuncio.anuncio",
+    "pk": 3,
+    "fields": {
+        "imovel": 3,
+        "platform": "zap imoveis",
+        "platform_fee": 8000,
+        "created_at": "2022-11-15T21:28:26.761Z",
+        "updated_at": "2022-11-15T21:28:26.761Z"
+    }
+},
+{
+    "model": "anuncio.anuncio",
+    "pk": 4,
+    "fields": {
+        "imovel": 3,
+        "platform": "facebook",
+        "platform_fee": 4200,
+        "created_at": "2022-11-15T21:28:41.993Z",
+        "updated_at": "2022-11-15T21:28:41.993Z"
+    }
+},
+{
+    "model": "anuncio.anuncio",
+    "pk": 5,
+    "fields": {
+        "imovel": 4,
+        "platform": "facebook",
+        "platform_fee": 6000,
+        "created_at": "2022-11-15T21:29:28.933Z",
+        "updated_at": "2022-11-15T21:29:28.933Z"
+    }
+},
+{
+    "model": "anuncio.anuncio",
+    "pk": 6,
+    "fields": {
+        "imovel": 4,
+        "platform": "airbnb",
+        "platform_fee": 5500,
+        "created_at": "2022-11-15T21:29:39.238Z",
+        "updated_at": "2022-11-15T21:29:39.238Z"
+    }
+}
+]

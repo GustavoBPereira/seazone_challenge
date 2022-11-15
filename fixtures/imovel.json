@@ -1,0 +1,72 @@
+[
+{
+    "model": "imovel.imovel",
+    "pk": 1,
+    "fields": {
+        "code": "bbfb58dc-4b6c-4027-bada-094d4aaaef32",
+        "guest_limit": 4,
+        "bathroom_quantity": 2,
+        "is_pet_friendly": true,
+        "clean_value": 2000,
+        "activation_date": "2022-11-15T21:24:05Z",
+        "created_at": "2022-11-15T21:25:43.338Z",
+        "updated_at": "2022-11-15T21:25:43.338Z"
+    }
+},
+{
+    "model": "imovel.imovel",
+    "pk": 2,
+    "fields": {
+        "code": "12b21d2e-73ae-43bc-80ea-0d223c69d0c5",
+        "guest_limit": 2,
+        "bathroom_quantity": 1,
+        "is_pet_friendly": false,
+        "clean_value": 1000,
+        "activation_date": "2022-11-22T12:25:53Z",
+        "created_at": "2022-11-15T21:26:03.895Z",
+        "updated_at": "2022-11-15T21:26:03.895Z"
+    }
+},
+{
+    "model": "imovel.imovel",
+    "pk": 3,
+    "fields": {
+        "code": "9e8a3718-4c6e-4464-b047-01c16bde9304",
+        "guest_limit": 3,
+        "bathroom_quantity": 1,
+        "is_pet_friendly": true,
+        "clean_value": 4000,
+        "activation_date": "2022-10-15T22:26:14Z",
+        "created_at": "2022-11-15T21:26:26.999Z",
+        "updated_at": "2022-11-15T21:26:26.999Z"
+    }
+},
+{
+    "model": "imovel.imovel",
+    "pk": 4,
+    "fields": {
+        "code": "68120786-7ca3-43c8-b385-85b7fe589c42",
+        "guest_limit": 4,
+        "bathroom_quantity": 2,
+        "is_pet_friendly": true,
+        "clean_value": 5000,
+        "activation_date": "2022-11-05T09:26:40Z",
+        "created_at": "2022-11-15T21:26:54.369Z",
+        "updated_at": "2022-11-15T21:26:54.369Z"
+    }
+},
+{
+    "model": "imovel.imovel",
+    "pk": 5,
+    "fields": {
+        "code": "b794a400-56e5-4d26-a7cc-2cdef8c90625",
+        "guest_limit": 5,
+        "bathroom_quantity": 3,
+        "is_pet_friendly": false,
+        "clean_value": 1500,
+        "activation_date": "2022-11-10T17:27:06Z",
+        "created_at": "2022-11-15T21:27:17.794Z",
+        "updated_at": "2022-11-15T21:27:17.794Z"
+    }
+}
+]
