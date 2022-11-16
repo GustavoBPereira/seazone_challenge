@@ -247,6 +247,8 @@ python -m virtualenv --python={path ou alias para seu (python>=3.8)} venv
 source venv/bin/activate
 pip install -r requirements.txt
 
+# Crie um arquivo .env, se baseando em example.env na raiz do projeto
+
 # Preparando a banco de dados
 python manage.py migrate
 
