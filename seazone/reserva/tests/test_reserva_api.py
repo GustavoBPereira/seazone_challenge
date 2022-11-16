@@ -44,7 +44,7 @@ class ImovelApiTestCase(TestCase):
     def test_reserva_create(self):
         anuncio = Anuncio.objects.get(pk=1)
         reservation_price = 20000
-        reservation_total_price = reservation_price + anuncio.imovel.clean_value
+        reservation_total_price = reservation_price + anuncio.imovel.clean_value + anuncio.platform_fee
         req = self.c.post('/api/reservas/', data={
             'anuncio': 1,
             'check_in': '2022-11-16T09:00:39.331298',

@@ -14,7 +14,7 @@ class ReservaSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         price = self.context['request'].data.get('price', False)
         if price:
-            total_price = validated_data['anuncio'].imovel.clean_value + int(price)
+            total_price = validated_data['anuncio'].platform_fee + validated_data['anuncio'].imovel.clean_value + int(price)
         else:
             raise serializers.ValidationError({'price': 'Campo required'})
         validated_data['total_price'] = total_price
