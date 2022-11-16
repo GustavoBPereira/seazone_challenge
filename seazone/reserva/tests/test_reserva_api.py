@@ -78,7 +78,6 @@ class ImovelApiTestCase(TestCase):
             'guest_quantity': 5
         })
         self.assertEqual(req.status_code, 400)
-        req_response = req.json()
 
     def test_reserva_create_checkin_after_checkout(self):
         req = self.c.post('/api/reservas/', data={
