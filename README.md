@@ -233,6 +233,7 @@ Se check_in for antes de check_out e limite de hospedes forem respeitadas
 ```
 Do contrário
 - response 400
+```
 
 
 ### Build and Tests
@@ -258,3 +259,5 @@ python manage.py runserver
 # Para rodar os testes
 python manage.py test
 ```
+
+Notei algumas melhorias que deveriam, ao meu ver, serem priorizadas no projeto, as listei [aqui](https://github.com/GustavoBPereira/seazone_challenge/blob/main/melhorias.MD)
